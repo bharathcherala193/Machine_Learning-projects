@@ -1,5 +1,5 @@
 # Machine-Learning-Projects
-## Project - 2: Used Car Price Prediction using Linear Regression
+## Project - 1: Used Car Price Prediction using Linear Regression
 
 This project predicts the selling price of a used car using Machine Learning.
 I used Linear Regression to understand how different car features affect the resale price.
