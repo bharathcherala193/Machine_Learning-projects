@@ -1,0 +1,155 @@
+# Global AI Salary Intelligence System
+
+## 📌 Project Overview
+
+This project builds regression models to predict AI professionals' salaries (USD) using the Global AI Job Market & Salary Trends 2025 dataset.
+
+The main goal is to practice and implement complete regression workflow from data analysis to model evaluation.
+
+## 🎯 Problem Statement
+
+AI salaries depend on:
+
+Experience level
+
+Employment type
+
+Company size
+
+Job title
+
+Remote work ratio
+
+Years of experience
+
+## Objective:
+
+Build machine learning regression models to predict salary in USD and compare different regression techniques.
+
+### 📂 Dataset
+
+Dataset: Global AI Job Market & Salary Trends 2025
+
+Target:
+
+salary_usd
+
+Important Features:
+
+experience_level
+
+employment_type
+
+company_size
+
+job_title
+
+remote_ratio
+
+years_experience
+
+## 🔄 Project Steps
+### 1️⃣ Data Understanding
+
+Checked dataset shape
+
+Checked missing values
+
+Reviewed data types
+
+Viewed statistical summary
+
+### 2️⃣ Exploratory Data Analysis (EDA)
+
+Plotted salary distribution
+
+Found salary was right-skewed
+
+Applied log transformation (log_salary)
+
+Checked correlation matrix
+
+### 3️⃣ Feature Engineering
+
+One-hot encoded categorical variables
+
+Grouped top job titles
+
+Created interaction feature:
+
+remote_experience = remote_ratio × years_experience
+
+Scaled features using StandardScaler
+
+### 4️⃣ Models Implemented
+🔹 Linear Regression
+
+Baseline model.
+
+🔹 Polynomial Regression
+
+Captured non-linear relationships.
+
+🔹 Ridge Regression
+
+Controlled overfitting using L2 regularization.
+
+🔹 Lasso Regression
+
+Performed automatic feature selection using L1 regularization.
+
+### 📊 Model Evaluation
+
+Used:
+
+RMSE
+
+R² Score
+
+Train vs Test comparison
+
+Learning curves
+
+Residual analysis
+
+### 📈 Observations
+
+Salary distribution was highly skewed → log transformation improved results.
+
+Experience level strongly impacts salary.
+
+Company size affects salary trends.
+
+Polynomial regression improved fit but increased overfitting.
+
+Ridge gave better balance between bias and variance.
+
+Lasso removed less important features automatically.
+
+### 🧠 What I Learned
+
+How to build a complete regression pipeline
+
+How to handle skewed data
+
+How to control overfitting
+
+Difference between Linear, Ridge, and Lasso
+
+How to analyze bias and variance
+
+How to interpret residual plots
+
+### 🛠 Tools Used
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
