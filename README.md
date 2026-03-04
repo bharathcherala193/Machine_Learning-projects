@@ -67,7 +67,7 @@ Model performance was evaluated using R² Score and Mean Squared Error.
 
 
 
-## Project - 2: Global AI Salary Intelligence System
+# Project - 2: Global AI Salary Intelligence System
 
 ### 📌 Project Overview
 This project builds regression models to predict AI professionals' salaries (USD) using the Global AI Job Market & Salary Trends 2025 dataset.
