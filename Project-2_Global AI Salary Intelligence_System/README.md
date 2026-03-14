@@ -1,12 +1,12 @@
 # Global AI Salary Intelligence System
 
-## 📌 Project Overview
+##  Project Overview
 
 This project builds regression models to predict AI professionals' salaries (USD) using the Global AI Job Market & Salary Trends 2025 dataset.
 
 The main goal is to practice and implement complete regression workflow from data analysis to model evaluation.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 AI salaries depend on:
 
@@ -26,7 +26,7 @@ Years of experience
 
 Build machine learning regression models to predict salary in USD and compare different regression techniques.
 
-### 📂 Dataset
+###  Dataset
 
 Dataset: Global AI Job Market & Salary Trends 2025
 
@@ -48,8 +48,8 @@ remote_ratio
 
 years_experience
 
-## 🔄 Project Steps
-### 1️⃣ Data Understanding
+##  Project Steps
+### 1️ Data Understanding
 
 Checked dataset shape
 
@@ -59,7 +59,7 @@ Reviewed data types
 
 Viewed statistical summary
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️ Exploratory Data Analysis (EDA)
 
 Plotted salary distribution
 
@@ -69,7 +69,7 @@ Applied log transformation (log_salary)
 
 Checked correlation matrix
 
-### 3️⃣ Feature Engineering
+### 3️ Feature Engineering
 
 One-hot encoded categorical variables
 
@@ -81,24 +81,24 @@ remote_experience = remote_ratio × years_experience
 
 Scaled features using StandardScaler
 
-### 4️⃣ Models Implemented
-🔹 Linear Regression
+### 4️ Models Implemented
+- Linear Regression
 
 Baseline model.
 
-🔹 Polynomial Regression
+- Polynomial Regression
 
 Captured non-linear relationships.
 
-🔹 Ridge Regression
+- Ridge Regression
 
 Controlled overfitting using L2 regularization.
 
-🔹 Lasso Regression
+- Lasso Regression
 
 Performed automatic feature selection using L1 regularization.
 
-### 📊 Model Evaluation
+###  Model Evaluation
 
 Used:
 
@@ -112,7 +112,7 @@ Learning curves
 
 Residual analysis
 
-### 📈 Observations
+###  Observations
 
 Salary distribution was highly skewed → log transformation improved results.
 
@@ -126,7 +126,7 @@ Ridge gave better balance between bias and variance.
 
 Lasso removed less important features automatically.
 
-### 🧠 What I Learned
+###  What I Learned
 
 How to build a complete regression pipeline
 
@@ -140,7 +140,7 @@ How to analyze bias and variance
 
 How to interpret residual plots
 
-### 🛠 Tools Used
+### Tools Used
 
 Python
 
