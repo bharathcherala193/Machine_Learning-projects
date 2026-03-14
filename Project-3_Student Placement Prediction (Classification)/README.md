@@ -1,11 +1,11 @@
 # Student Placement Prediction using Logistic Regression
-## 📌 Project Overview
+##  Project Overview
 
 This project builds a classification model to predict whether a student will get placed in a company based on academic performance and employability scores.
 
 The main goal is to practice and implement a complete classification workflow, including data analysis, preprocessing, model implementation, and evaluation.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Student placement in companies depends on several academic and skill-related factors such as:
 
@@ -22,7 +22,7 @@ MBA percentage
 ### Objective:
 Build a machine learning classification model using Logistic Regression to predict whether a student will be Placed or Not Placed.
 
-### 📂 Dataset
+###  Dataset
 
 Dataset: Campus Placement Dataset
 
@@ -48,8 +48,8 @@ etest_p – Employability test score
 
 mba_p – MBA percentage
 
-## 🔄 Project Steps
-### 1️⃣ Data Understanding
+##  Project Steps
+### 1️ Data Understanding
 
 Checked dataset shape
 
@@ -59,7 +59,7 @@ Identified missing values
 
 Viewed statistical summary
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️ Exploratory Data Analysis (EDA)
 
 Visualized placement distribution
 
@@ -67,7 +67,7 @@ Explored relationships between academic scores and placement
 
 Observed that students with higher academic scores tend to have better placement chances
 
-### 3️⃣ Data Preprocessing
+### 3️ Data Preprocessing
 
 Selected important numerical features
 
@@ -75,9 +75,9 @@ Converted target variable (Placed / Not Placed) into binary values
 
 Handled missing values using mean imputation
 
-### 4️⃣ Model Implemented
+### 4️ Model Implemented
 
-🔹 Logistic Regression (From Scratch)
+- Logistic Regression (From Scratch)
 
 Used logistic regression to model the probability of student placement.
 
@@ -97,7 +97,7 @@ Probability < 0.5 → Not Placed
 
 Gradient Descent was used to optimize the model parameters.
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 Model performance was evaluated using:
 
@@ -109,7 +109,7 @@ Accuracy formula:
 
 Accuracy = Correct Predictions / Total Predictions
 
-## 📈 Observations
+##  Observations
 
 Students with higher degree percentage and employability scores had a higher chance of placement.
 
