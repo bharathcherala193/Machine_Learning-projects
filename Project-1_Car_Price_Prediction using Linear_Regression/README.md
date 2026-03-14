@@ -4,7 +4,7 @@ This project predicts the selling price of a used car using Machine Learning. I 
 
 The goal of this project is to learn and apply basic Machine Learning concepts on a real-world problem.
 
-## 🧠 Problem Statement
+##  Problem Statement
 Used car prices depend on many factors such as:
 
 car age
@@ -19,7 +19,7 @@ number of previous owners
 
 This project builds a model that estimates the price of a car based on these details.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 Python
 
 Pandas
@@ -30,7 +30,7 @@ Matplotlib / Seaborn
 
 Scikit-learn
 
-## 🔍 Project Workflow
+##  Project Workflow
 Load and understand the dataset
 
 Perform Exploratory Data Analysis (EDA)
@@ -49,7 +49,7 @@ Evaluate model performance
 
 Predict price for new car data
 
-## 📊 Results & Observations
+##  Results & Observations
 Older cars generally have lower prices.
 
 Higher kilometers driven reduce resale value.
